@@ -1,2 +1,2 @@
 data/
-weak labelng strategies/llms/.env
+src/disinfograph/strategies/llms/.env
