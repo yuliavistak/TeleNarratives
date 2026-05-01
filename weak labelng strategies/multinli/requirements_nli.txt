@@ -1,4 +1,0 @@
-pandas
-transformers
-torch
-sentencepiece

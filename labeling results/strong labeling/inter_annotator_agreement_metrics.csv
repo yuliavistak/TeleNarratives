@@ -1,0 +1,31 @@
+case,metric,pair,value,n_items
+binary,cohen_kappa,Reviewer 1 vs Reviewer 2,0.936407,103
+binary,pairwise_agreement,Reviewer 1 vs Reviewer 2,0.970874,103
+binary,cohen_kappa,Reviewer 1 vs Reviewer 3,0.853246,103
+binary,pairwise_agreement,Reviewer 1 vs Reviewer 3,0.932039,103
+binary,cohen_kappa,Reviewer 2 vs Reviewer 3,0.871944,103
+binary,pairwise_agreement,Reviewer 2 vs Reviewer 3,0.941748,103
+binary,cohen_kappa_mean,,0.887199,103
+binary,fleiss_kappa,,0.887072,103
+binary,all_three_agreement,,0.92233,103
+binary,krippendorff_alpha,,0.887437,103
+multiclass,cohen_kappa,Reviewer 1 vs Reviewer 2,0.676582,103
+multiclass,pairwise_agreement,Reviewer 1 vs Reviewer 2,0.815534,103
+multiclass,cohen_kappa,Reviewer 1 vs Reviewer 3,0.697996,103
+multiclass,pairwise_agreement,Reviewer 1 vs Reviewer 3,0.825243,103
+multiclass,cohen_kappa,Reviewer 2 vs Reviewer 3,0.504808,103
+multiclass,pairwise_agreement,Reviewer 2 vs Reviewer 3,0.718447,103
+multiclass,cohen_kappa_mean,,0.626462,103
+multiclass,fleiss_kappa,,0.625661,103
+multiclass,all_three_agreement,,0.679612,103
+multiclass,krippendorff_alpha,,0.626872,103
+multiclass_level_1,cohen_kappa,Reviewer 1 (level-1) vs Reviewer 2 (level-1),0.80526,103
+multiclass_level_1,pairwise_agreement,Reviewer 1 (level-1) vs Reviewer 2 (level-1),0.893204,103
+multiclass_level_1,cohen_kappa,Reviewer 1 (level-1) vs Reviewer 3 (level-1),0.74003,103
+multiclass_level_1,pairwise_agreement,Reviewer 1 (level-1) vs Reviewer 3 (level-1),0.854369,103
+multiclass_level_1,cohen_kappa,Reviewer 2 (level-1) vs Reviewer 3 (level-1),0.611321,103
+multiclass_level_1,pairwise_agreement,Reviewer 2 (level-1) vs Reviewer 3 (level-1),0.786408,103
+multiclass_level_1,cohen_kappa_mean,,0.71887,103
+multiclass_level_1,fleiss_kappa,,0.718173,103
+multiclass_level_1,all_three_agreement,,0.76699,103
+multiclass_level_1,krippendorff_alpha,,0.719085,103
