@@ -308,7 +308,7 @@ def load_training_frames_from_neo4j(
                 session,
                 """
                 MATCH (c:Channel)
-                RETURN 
+                RETURN
                     properties(c) AS props
                 """,
             )

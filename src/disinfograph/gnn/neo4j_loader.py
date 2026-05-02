@@ -802,7 +802,7 @@ def load_to_neo4j(
     graph: Optional[nx.MultiDiGraph] = None,
 ) -> None:
     """Load data from Parquet files or an in-memory graph to Neo4j.
-    
+
     Args:
         parquet_paths: Dictionary with 'channels_parquet' and 'messages_parquet' paths.
             Required when `graph` is not provided.

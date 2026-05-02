@@ -55,7 +55,7 @@ class TelegramParser:
         output_channels_file: Optional[Path] = None,
     ) -> None:
         """Initialize TelegramParser.
-        
+
         Args:
             api_id: Telegram API ID
             api_hash: Telegram API hash
@@ -84,7 +84,7 @@ class TelegramParser:
         self.channels_parquet = channels_parquet
         self.channels = channels
         self.channel_labels = channel_labels or get_channel_labels()
-        
+
         # Date-based filtering (default: last 12 months)
         # If start_date is not provided, default to 12 months ago
         if start_date is not None:
@@ -97,7 +97,7 @@ class TelegramParser:
             # Default: 12 months ago (date-based filtering by default)
             default_start, default_end = get_last_n_months_range(12)
             self.start_date = default_start
-            
+
         if end_date is not None:
             if end_date.tzinfo is None:
                 self.end_date = end_date.replace(tzinfo=timezone.utc)
@@ -105,11 +105,11 @@ class TelegramParser:
                 self.end_date = end_date
         else:
             self.end_date = datetime.now(timezone.utc)
-        
+
         # Message limit: Date-based filtering is always used (start_date is always set)
         # Since we default to date-based (12 months ago), messages_per_channel is always None
         self.messages_per_channel = None  # Fetch all messages in date range
-        
+
         self.include_raw_message = include_raw_message
         self.fetch_reply_parent = fetch_reply_parent
         # JSONL files are optional
@@ -118,7 +118,7 @@ class TelegramParser:
 
     def run(self) -> None:
         """Run full ingestion: fetch from Telegram, write incrementally to Parquet.
-        
+
         Handles session management, authentication, and connection errors gracefully.
         """
         # Ensure session file has secure permissions (owner read/write only)
@@ -129,16 +129,16 @@ class TelegramParser:
             except OSError:
                 # Permission setting may fail on some systems, continue anyway
                 pass
-        
+
         # Create client and manage connection manually for better control
         client = TelegramClient(self.session_name, self.api_id, self.api_hash)
-        
+
         try:
             # Connect and authenticate
             self._connect_and_authenticate(client, session_path)
-            
+
             channels_seen: set[int] = set()
-            
+
             # Optional JSONL file handles (only if paths provided)
             f_msg_out = None
             f_ch_out = None
@@ -152,11 +152,11 @@ class TelegramParser:
             channels_writer = None
             messages_schema = None
             channels_schema = None
-            
+
             # Batch buffers for incremental writing
             messages_batch: List[Dict] = []
             channels_batch: List[Dict] = []
-            
+
             # Track totals
             total_messages = 0
             total_channels = 0
@@ -186,7 +186,7 @@ class TelegramParser:
                         # Optionally write to JSONL (if file handle provided)
                         if f_ch_out:
                             f_ch_out.write(json.dumps(safe_ch_record, ensure_ascii=False) + "\n")
-                        
+
                         # Add to batch and write immediately (channels are few)
                         channels_batch.append(safe_ch_record)
                         # Initialize schema and writer on first channel
@@ -201,7 +201,7 @@ class TelegramParser:
                         channels_seen.add(ch_id)
 
                     count = 0
-                    
+
                     # Prepare iter_messages parameters
                     # Date-based filtering is always used (start_date defaults to 12 months ago)
                     iter_kwargs = {}
@@ -213,23 +213,23 @@ class TelegramParser:
                     iter_kwargs['reverse'] = False  # Get newest first (default)
                     # No limit - fetch all messages in date range
                     print(f"  📅 Date-based: Fetching messages from {self.start_date.strftime('%Y-%m-%d')} to {self.end_date.strftime('%Y-%m-%d')}")
-                    
+
                     for message in client.iter_messages(entity, **iter_kwargs):
                         if not message:
                             continue
-                        
+
                         # Filter by date range (start_date is always set, defaults to 12 months ago)
                         # Skip messages outside the date range
                         if message.date is None:
                             continue
-                        
+
                         msg_date = message.date
                         # message.date from Telethon is timezone-aware (UTC)
                         # Make timezone-aware comparison if needed
                         if msg_date.tzinfo is None:
                             # If message date is naive, assume UTC
                             msg_date = msg_date.replace(tzinfo=timezone.utc)
-                        
+
                         # Compare dates (both should be timezone-aware)
                         if msg_date < self.start_date:
                             # We've gone past the start date, stop fetching
@@ -249,7 +249,7 @@ class TelegramParser:
                         # Optionally write to JSONL (if file handle provided)
                         if f_msg_out:
                             f_msg_out.write(json.dumps(safe_record, ensure_ascii=False) + "\n")
-                        
+
                         # Prepare Parquet record (create a clean record without nested JSON)
                         parquet_record = safe_record.copy()
                         # Keep nested data as JSON strings for Parquet (pandas can handle this)
@@ -265,7 +265,7 @@ class TelegramParser:
                             parquet_record["raw_message"] = json.dumps(
                                 parquet_record["raw_message"], ensure_ascii=False
                             )
-                        
+
                         messages_batch.append(parquet_record)
                         total_messages += 1
 
@@ -285,7 +285,7 @@ class TelegramParser:
                             print(f"  Collected {count} messages from @{channel_username}")
 
                     print(f"Done: collected {count} messages from @{channel_username}")
-                    
+
                     # Write batch after each channel (ensures progress even with small batches)
                     if messages_batch and len(messages_batch) > 0:
                         if messages_schema is None:
@@ -295,7 +295,7 @@ class TelegramParser:
                             self._write_messages_batch(messages_batch, messages_writer, messages_schema)
                             print(f"  ✓ Written batch of {len(messages_batch)} messages to Parquet")
                             messages_batch = []  # Clear after writing
-                
+
                 # Write any remaining batches at the end
                 if messages_batch:
                     if messages_schema is None:
@@ -305,21 +305,21 @@ class TelegramParser:
                         self._write_messages_batch(messages_batch, messages_writer, messages_schema)
                         print(f"  ✓ Written final batch of {len(messages_batch)} messages to Parquet")
                     messages_batch = []
-                
+
                 if channels_batch:
                     if channels_schema is None:
                         channels_schema = self._get_channels_schema(channels_batch)
                         channels_writer = self._init_channels_writer(channels_writer, channels_schema)
                     self._write_channels_batch(channels_batch, channels_writer)
                     channels_batch = []
-                
+
             finally:
                 # Close Parquet writers
                 if messages_writer:
                     messages_writer.close()
                 if channels_writer:
                     channels_writer.close()
-                
+
                 # Close JSONL files if they were opened
                 if f_msg_out:
                     f_msg_out.close()
@@ -331,7 +331,7 @@ class TelegramParser:
             print(f"  - Messages: {total_messages}")
             if self.output_messages_file or self.output_channels_file:
                 print(f"  (JSONL files also created)")
-        
+
         except AuthKeyUnregisteredError:
             print(f"\n❌ Session expired or invalid")
             print(f"   The session file at {session_path} is no longer valid.")
@@ -363,7 +363,7 @@ class TelegramParser:
             else:
                 print(f"\n❌ Error during parsing: {e}")
                 raise
-        
+
         finally:
             # Always disconnect client properly
             try:
@@ -371,14 +371,14 @@ class TelegramParser:
                     client.disconnect()
             except Exception:
                 pass  # Ignore errors during cleanup
-    
+
     def _connect_and_authenticate(self, client: TelegramClient, session_path: Path) -> None:
         """Connect to Telegram and handle authentication if needed.
-        
+
         Args:
             client: TelegramClient instance
             session_path: Path to session file (for error messages)
-            
+
         Raises:
             AuthKeyUnregisteredError: If session is invalid
             PhoneCodeInvalidError: If verification code is invalid
@@ -387,7 +387,7 @@ class TelegramParser:
         # Connect to Telegram (this must be done before any operations)
         if not client.is_connected():
             client.connect()
-        
+
         # Handle authentication if needed
         if not client.is_user_authorized():
             print("⚠️  Session not authorized. Starting authentication...")
@@ -395,7 +395,7 @@ class TelegramParser:
                 # Prompt for phone number
                 phone = input("Enter your phone number (with country code, e.g., +1234567890): ")
                 client.send_code_request(phone)
-                
+
                 code = input("Enter the verification code you received: ")
                 try:
                     client.sign_in(phone, code)
@@ -403,7 +403,7 @@ class TelegramParser:
                     # 2FA enabled, need password
                     password = input("Enter your 2FA password: ")
                     client.sign_in(password=password)
-                
+
                 print("✓ Authentication successful")
             except PhoneCodeInvalidError:
                 print("❌ Invalid verification code. Please try again.")
@@ -411,38 +411,38 @@ class TelegramParser:
             except Exception as e:
                 print(f"❌ Authentication failed: {e}")
                 raise
-        
+
         # Ensure we're still connected after authentication
         if not client.is_connected():
             client.connect()
-        
+
         print("✓ Connected to Telegram")
-    
+
     def _get_messages_schema(self, sample_batch: List[Dict]) -> Optional[pa.Schema]:
         """Infer Parquet schema from a sample batch of messages.
-        
+
         The schema is made nullable for all columns to handle missing fields
         in subsequent batches.
-        
+
         Args:
             sample_batch: List of message dictionaries
-            
+
         Returns:
             PyArrow Schema or None if batch is empty
         """
         return infer_schema_from_batch(sample_batch, make_nullable=True)
-    
+
     def _get_channels_schema(self, sample_batch: List[Dict]) -> Optional[pa.Schema]:
         """Infer Parquet schema from a sample batch of channels.
-        
+
         Args:
             sample_batch: List of channel dictionaries
-            
+
         Returns:
             PyArrow Schema or None if batch is empty
         """
         return infer_schema_from_batch(sample_batch, make_nullable=False)
-    
+
     def _init_messages_writer(
         self,
         writer: Optional[pq.ParquetWriter],
@@ -460,7 +460,7 @@ class TelegramParser:
                 print(f"  ⚠️  Warning: Could not initialize Parquet writer: {e}")
                 return None
         return writer
-    
+
     def _init_channels_writer(
         self,
         writer: Optional[pq.ParquetWriter],
@@ -473,7 +473,7 @@ class TelegramParser:
                 self.channels_parquet.unlink()
             writer = pq.ParquetWriter(self.channels_parquet, schema)
         return writer
-    
+
     def _write_messages_batch(
         self,
         batch: List[Dict],
@@ -481,7 +481,7 @@ class TelegramParser:
         schema: Optional[pa.Schema] = None,
     ) -> None:
         """Write a batch of messages to Parquet file.
-        
+
         Args:
             batch: List of message dictionaries
             writer: ParquetWriter instance
@@ -492,14 +492,14 @@ class TelegramParser:
         except Exception as e:
             print(f"  ⚠️  Warning: Error writing messages batch: {e}")
             raise
-    
+
     def _write_channels_batch(
         self,
         batch: List[Dict],
         writer: pq.ParquetWriter,
     ) -> None:
         """Write a batch of channels to Parquet file.
-        
+
         Args:
             batch: List of channel dictionaries
             writer: ParquetWriter instance

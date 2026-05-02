@@ -31,7 +31,7 @@ def cleaning_and_preprocessing(df: pd.DataFrame) -> pd.DataFrame:
         (df['text'].astype(str).str.len() >= 20)
     ]
     df = df[df['text'].str.contains(r"[A-Za-zА-Яа-яІіЇїЄєҐґ]", regex=True)] # deleting messages with emojis/punctuation only - 27
-    
+
     df['date_utc'] = pd.to_datetime(df['date_utc'], errors='coerce', utc=True)
     df = df.dropna(subset=['date_utc'])
 
@@ -68,6 +68,6 @@ def stratified_sample_by_week(df, output_path, n_samples, random_state=42):
         indicator=True
     )
     remaining = remaining[remaining['_merge'] == 'left_only'].drop(columns=['_merge', '_week_of_year'])
-    
+
 
     return remaining

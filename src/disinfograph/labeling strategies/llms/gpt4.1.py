@@ -110,7 +110,7 @@ def classify_message(message_text, context_text, candidates_json):
     for item in resp.output:
         if item.type == "function_call" and item.name == "label_message":
             return json.loads(item.arguments)
-        
+
 
     raise ValueError("No function_call output found for label_message.")
 
