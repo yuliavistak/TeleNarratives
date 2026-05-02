@@ -56,7 +56,7 @@ data/
 *.parquet
 
 # GNN folder (large model files and data)
-src/disinfograph/gnn/
+src/disinfograph/gnn/models/
 
 # Jupyter Notebooks (keep notebooks, but ignore checkpoints)
 .ipynb_checkpoints/
