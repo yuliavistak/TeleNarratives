@@ -18,7 +18,7 @@ import torch.utils.data as D
 from torch.optim.lr_scheduler import LinearLR
 from tqdm.auto import tqdm
 
-from disinfograph.gnn.dgl import load_dgl_graph, save_dgl_graph
+from src.disinfograph.gnn.dgl import load_dgl_graph, save_dgl_graph
 
 
 logger = logging.getLogger(__name__)
@@ -344,7 +344,7 @@ def train_graph_model(task: str,
         import dgl
         from dgl.dataloading import DataLoader as NodeDataLoader
         from dgl.dataloading import MultiLayerNeighborSampler
-        from mumin.gnn.model import HeteroGraphSAGE
+        from src.disinfograph.gnn.model import HeteroGraphSAGE
     except (ModuleNotFoundError, FileNotFoundError) as exc:
         raise RuntimeError(
             "The graph training dependencies could not be imported. "
