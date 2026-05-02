@@ -1,23 +1,21 @@
 import json
+from datetime import datetime
+from pathlib import Path
 from dotenv import load_dotenv
 
 import pandas as pd
 from tenacity import retry, wait_random_exponential, stop_after_attempt
 from google import genai
 
-from datetime import datetime
-
-now = datetime.now()
-
-# Format: 2026-02-20 12:23:52
-print(now.strftime("%Y-%m-%d %H:%M:%S"))
 # ---- Config ----
+_PROJECT_ROOT = Path(__file__).resolve().parents[4]  # TeleNarratives/
+
 PART = 12000
 MODEL = "gemini-2.5-flash"  # підтримує structured outputs
-OUT_CSV = f"labeled_similarity_messages_gemini_sheet1.csv"
+OUT_CSV = "labeled_similarity_messages_gemini_sheet1.csv"
 
-MESSAGES_CSV = f"/Users/yuliavistak/Desktop/UCU/Навчання/4 курс/diploma/disinfo_graph/notebooks/labeling/strategies/Forwards to - Sheet1.csv"
-NARRATIVES_CSV = "/Users/yuliavistak/Desktop/UCU/Навчання/4 курс/diploma/disinfo_graph/notebooks/labeling/strategies/labeling - sub-narratives.csv"
+MESSAGES_CSV = _PROJECT_ROOT / "data" / "labeling" / "Forwards to - Sheet1.csv"
+NARRATIVES_CSV = _PROJECT_ROOT / "data" / "labeling" / "labeling - sub-narratives.csv"
 
 load_dotenv()  # читає GEMINI_API_KEY з .env
 client = genai.Client()

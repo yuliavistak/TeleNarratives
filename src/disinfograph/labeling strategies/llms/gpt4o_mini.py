@@ -1,4 +1,5 @@
 import json
+from pathlib import Path
 from dotenv import load_dotenv
 
 import pandas as pd
@@ -6,12 +7,14 @@ from openai import OpenAI
 from tenacity import retry, wait_random_exponential, stop_after_attempt
 
 # ---- Config ----
+_PROJECT_ROOT = Path(__file__).resolve().parents[4]  # TeleNarratives/
+
 MODEL = "gpt-4o-mini"
 TEMPERATURE = 0
 OUT_CSV = "labeled_messages_gpt_4o_mini_100.csv"
 
-MESSAGES_CSV = "/Users/yuliavistak/Desktop/UCU/Навчання/4 курс/diploma/disinfo_graph/notebooks/messages_103.csv"
-NARRATIVES_CSV = "/Users/yuliavistak/Desktop/UCU/Навчання/4 курс/diploma/disinfo_graph/data/Narratives.csv"
+MESSAGES_CSV = _PROJECT_ROOT / "data" / "messages_103.csv"
+NARRATIVES_CSV = _PROJECT_ROOT / "data" / "Narratives.csv"
 
 load_dotenv()  # loads OPENAI_API_KEY from .env
 client = OpenAI()

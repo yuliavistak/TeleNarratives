@@ -5,7 +5,7 @@ import torch
 import torch.nn as nn
 from typing import Dict, List, Tuple
 
-from src.disinfograph.gnn.heterographconv import HeteroGraphConv
+from disinfograph.gnn.heterographconv import HeteroGraphConv
 
 
 class HeteroGraphSAGE(nn.Module):

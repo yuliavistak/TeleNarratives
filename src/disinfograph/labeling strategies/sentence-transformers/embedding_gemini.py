@@ -1,3 +1,5 @@
+from pathlib import Path
+
 from dotenv import load_dotenv
 
 import pandas as pd
@@ -6,11 +8,13 @@ from google import genai
 from embedding_utils import iter_batches, run_similarity_pipeline
 
 # ---- Config ----
+_PROJECT_ROOT = Path(__file__).resolve().parents[4]  # TeleNarratives/
+
 MODEL = "text-embedding-004"
 OUT_CSV = "labeled_messages_gemini_embeddings.csv"
 
-MESSAGES_CSV = "/Users/yuliavistak/Desktop/UCU/Навчання/4 курс/diploma/disinfo_graph/notebooks/messages_103.csv"
-NARRATIVES_CSV = "/Users/yuliavistak/Desktop/UCU/Навчання/4 курс/diploma/disinfo_graph/data/Narratives.csv"
+MESSAGES_CSV = _PROJECT_ROOT / "data" / "messages_103.csv"
+NARRATIVES_CSV = _PROJECT_ROOT / "data" / "Narratives.csv"
 
 NARRATIVE_TEMPLATE = "{sub_narrative}"
 MESSAGE_PREFIX_CHARS = None

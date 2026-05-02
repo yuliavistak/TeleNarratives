@@ -1,5 +1,6 @@
 import os
 import json
+from pathlib import Path
 from dotenv import load_dotenv
 
 import pandas as pd
@@ -7,16 +8,14 @@ from tenacity import retry, wait_random_exponential, stop_after_attempt
 import anthropic
 from datetime import datetime
 
-# Current date and time
-# now = datetime.now()
-# print(now.strftime("%Y-%m-%d %H:%M:%S"))
-
 # ---- Config ----
+_PROJECT_ROOT = Path(__file__).resolve().parents[4]  # TeleNarratives/
+
 MODEL = "claude-sonnet-4-20250514"
 OUT_CSV = "labeled_messages_claude_100.csv"
 
-MESSAGES_CSV = "/Users/yuliavistak/Desktop/UCU/Навчання/4 курс/diploma/disinfo_graph/notebooks/messages_103.csv"
-NARRATIVES_CSV = "/Users/yuliavistak/Desktop/UCU/Навчання/4 курс/diploma/disinfo_graph/data/Narratives.csv"
+MESSAGES_CSV = _PROJECT_ROOT / "data" / "messages_103.csv"
+NARRATIVES_CSV = _PROJECT_ROOT / "data" / "Narratives.csv"
 
 load_dotenv()  # loads ANTHROPIC_API_KEY from .env
 client = anthropic.Anthropic(api_key=os.environ.get("ANTHROPIC_API_KEY"))

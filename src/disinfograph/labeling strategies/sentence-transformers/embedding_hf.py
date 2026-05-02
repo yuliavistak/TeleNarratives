@@ -1,3 +1,5 @@
+from pathlib import Path
+
 import pandas as pd
 import torch
 from sentence_transformers import SentenceTransformer
@@ -5,12 +7,14 @@ from sentence_transformers import SentenceTransformer
 from embedding_utils import run_similarity_pipeline
 
 # ---- Config ----
+_PROJECT_ROOT = Path(__file__).resolve().parents[4]  # TeleNarratives/
+
 MODEL = "BAAI/bge-m3"
 # MODEL = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 OUT_CSV = "labeled_messages_hf_embeddings_bge_m3_100.csv"
 
-MESSAGES_CSV = "/Users/yuliavistak/Desktop/UCU/Навчання/4 курс/diploma/disinfo_graph/notebooks/messages_103.csv"
-NARRATIVES_CSV = "/Users/yuliavistak/Desktop/UCU/Навчання/4 курс/diploma/disinfo_graph/data/Narratives.csv"
+MESSAGES_CSV = _PROJECT_ROOT / "data" / "messages_103.csv"
+NARRATIVES_CSV = _PROJECT_ROOT / "data" / "Narratives.csv"
 
 NARRATIVE_TEMPLATE = "{sub_narrative}"
 MESSAGE_PREFIX_CHARS = None

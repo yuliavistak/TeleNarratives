@@ -1,3 +1,5 @@
+from pathlib import Path
+
 import pandas as pd
 from sklearn.metrics import (
     accuracy_score,
@@ -12,12 +14,13 @@ from sklearn.metrics import (
 )
 
 # ------------------- CONFIG -------------------
+_PROJECT_ROOT = Path(__file__).resolve().parents[3]  # TeleNarratives/
 
 TASK = "llm few-shot prompting"
 EXPERIMENT = "best_gemini_400"
 
 GOLD_CSV = "labeling - full labeling (short).csv"
-PRED_CSV = F"/Users/yuliavistak/Desktop/UCU/Навчання/4 курс/diploma/disinfo_graph/notebooks/labeling/strategies/labeling results/{TASK}/labeled_messages_{EXPERIMENT}.csv"
+PRED_CSV = _PROJECT_ROOT / "data" / "labeling results" / TASK / f"labeled_messages_{EXPERIMENT}.csv"
 
 RESULTS_CSV = f"evaluation_results_{EXPERIMENT}.csv"
 
