@@ -1,4 +1,10 @@
-"""Functions related to exporting the dataset to the Deep Graph Library"""
+"""
+Adapted from mumin-build by Dan Saattrup Nielsen and Ryan McConville
+Original: https://github.com/MuMiN-dataset/mumin-build/blob/main/src/mumin/dgl.py
+License: MIT
+
+Functions related to exporting the dataset to the Deep Graph Library
+"""
 
 import json
 from pathlib import Path

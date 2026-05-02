@@ -1,4 +1,10 @@
-"""Custom HeteroGraphConv with canonical edge-type key compatibility."""
+"""
+Adapted from mumin-build by Dan Saattrup Nielsen and Ryan McConville
+Original: https://github.com/MuMiN-dataset/mumin-baseline/blob/main/src/heterographconv.py
+License: MIT
+
+Custom HeteroGraphConv with canonical edge-type key compatibility.
+"""
 
 from functools import partial
 

@@ -1,4 +1,7 @@
-"""Training utilities for the heterogeneous GraphSAGE message-classification model."""
+"""
+https://github.com/MuMiN-dataset/mumin-baseline/blob/main/src/train_graph_model.py
+
+Training utilities for the heterogeneous GraphSAGE message-classification model."""
 
 import copy
 import csv

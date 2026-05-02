@@ -1,4 +1,10 @@
-"""Heterogeneous GraphSAGE model for node classification on multigraphs."""
+"""
+Adapted from mumin-build by Dan Saattrup Nielsen and Ryan McConville
+Original: https://github.com/MuMiN-dataset/mumin-baseline/blob/main/src/model.py
+License: MIT
+
+Heterogeneous GraphSAGE model for node classification on multigraphs.
+"""
 
 import dgl.nn.pytorch as dglnn
 import torch
