@@ -1,0 +1,381 @@
+sub_narrative_id,sub_narrative,narrative_id,narrative,meta_narrative_id,meta_narrative,sub_narrative_source
+1,Supplying weapons to Ukraine prolongs the war,1,"Narrative about weapons supplied to Ukraine by Western countries",1,Discrediting the EU and the West,Vox
+2,Europeans do not want to supply weapons to Ukraine,1,"Narrative about weapons supplied to Ukraine by Western countries",1,Discrediting the EU and the West,Vox
+3,Western weapons will not help Ukraine,1,"Narrative about weapons supplied to Ukraine by Western countries",1,Discrediting the EU and the West,Vox
+4,"Ukraine sells the weapons provided by its Western partners",1,"Narrative about weapons supplied to Ukraine by Western countries",1,Discrediting the EU and the West,Vox
+5,Russia easily destroys Western weapons in Ukraine,1,"Narrative about weapons supplied to Ukraine by Western countries",1,Discrediting the EU and the West,Vox
+6,Supplying uranium ammunition is dangerous,1,"Narrative about weapons supplied to Ukraine by Western countries",1,Discrediting the EU and the West,Vox
+7,Supplying weapons makes the West responsible for casualties,1,"Narrative about weapons supplied to Ukraine by Western countries",1,Discrediting the EU and the West,Vox
+8,Weapons from the West do not reach the front line,1,"Narrative about weapons supplied to Ukraine by Western countries",1,Discrediting the EU and the West,Vox
+9,"The West supplies weapons to Ukraine to make money",1,"Narrative about weapons supplied to Ukraine by Western countries",1,Discrediting the EU and the West,Vox
+10,The war in Ukraine demonstrates the superiority of Russian weapons,1,"Narrative about weapons supplied to Ukraine by Western countries",1,Discrediting the EU and the West,Vox
+11,Ukraine is supplied with poor-quality weapons,1,"Narrative about weapons supplied to Ukraine by Western countries",1,Discrediting the EU and the West,Vox
+12,EU countries want to divide Ukraine,2,Allies want to divide Ukraine,2,Undermining faith in Ukraine's victory,Vox
+13,Poland plans to occupy part of Ukraine,2,Allies want to divide Ukraine,2,Undermining faith in Ukraine's victory,Vox
+14,Illegal organ transplant practitioners operate on the front line,3,Illegal organ transplantation in Ukraine,3,Discrediting Ukraine through conspiracy theories,Vox
+15,Ukrainian legislation does not prohibit illegal organ transplant practitioners from operating,3,Illegal organ transplantation in Ukraine,3,Discrediting Ukraine through conspiracy theories,Vox
+16,Children from Ukraine are sold for their organs,3,Illegal organ transplantation in Ukraine,3,Discrediting Ukraine through conspiracy theories,Vox
+17,Illegal organ transplant practitioners from other countries operate in Ukraine,3,Illegal organ transplantation in Ukraine,3,Discrediting Ukraine through conspiracy theories,Vox
+18,Ukraine trades in the organs of its military personnel,3,Illegal organ transplantation in Ukraine,3,Discrediting Ukraine through conspiracy theories,Vox
+19,Polish mercenaries are fighting in Ukraine,4,Narrative about foreign mercenaries,4,The West uses Ukraine for its own purposes,Vox
+20,Foreign mercenaries are fighting on Ukraine's side,4,Narrative about foreign mercenaries,4,The West uses Ukraine for its own purposes,Vox
+21,Foreign mercenaries expose the critical situation in the Armed Forces of Ukraine,4,Narrative about foreign mercenaries,4,The West uses Ukraine for its own purposes,Vox
+22,Foreign mercenaries kill civilians in Ukraine,4,Narrative about foreign mercenaries,4,The West uses Ukraine for its own purposes,Vox
+23,Ukraine recruits foreign mercenaries because of a shortage of soldiers,4,Narrative about foreign mercenaries,4,The West uses Ukraine for its own purposes,Vox
+24,Volunteers profit from foreign humanitarian aid,5,Narrative about humanitarian aid to Ukraine,5,Humanitarian narratives about Ukraine,Vox
+25,"Doctors resell medical humanitarian aid sent to Ukraine",5,Narrative about humanitarian aid to Ukraine,5,Humanitarian narratives about Ukraine,Vox
+26,"Humanitarian aid is given to the military rather than civilians",5,Narrative about humanitarian aid to Ukraine,5,Humanitarian narratives about Ukraine,Vox
+27,Humanitarian aid is sold in shops,5,Narrative about humanitarian aid to Ukraine,5,Humanitarian narratives about Ukraine,Vox
+28,"Politicians steal humanitarian aid, while ordinary people receive nothing",5,Narrative about humanitarian aid to Ukraine,5,Humanitarian narratives about Ukraine,Vox
+29,Russian-speaking civilians face discrimination in the distribution of humanitarian aid,5,Narrative about humanitarian aid to Ukraine,5,Humanitarian narratives about Ukraine,Vox
+30,Ukrainian refugees face danger in Europe,6,Narrative about Ukrainian refugees,5,Humanitarian narratives about Ukraine,Vox
+31,Europe is tired of refugees from Ukraine,6,Narrative about Ukrainian refugees,5,Humanitarian narratives about Ukraine,Vox
+32,"Governments care more about Ukrainian refugees than their own citizens",6,Narrative about Ukrainian refugees,5,Humanitarian narratives about Ukraine,Vox
+33,Other migrants suffer because of refugees from Ukraine,6,Narrative about Ukrainian refugees,5,Humanitarian narratives about Ukraine,Vox
+34,The real refugees from the combat zone went to Russia,6,Narrative about Ukrainian refugees,5,Humanitarian narratives about Ukraine,Vox
+35,Refugees are a burden on the economy,6,Narrative about Ukrainian refugees,5,Humanitarian narratives about Ukraine,Vox
+36,Refugees are used to blackmail European countries,6,Narrative about Ukrainian refugees,5,Humanitarian narratives about Ukraine,Vox
+37,Refugees from Ukraine are actually economic migrants,6,Narrative about Ukrainian refugees,5,Humanitarian narratives about Ukraine,Vox
+38,Refugees do not want to look for jobs or work,6,Narrative about Ukrainian refugees,5,Humanitarian narratives about Ukraine,Vox
+39,Refugees from Ukraine came to access medical services,6,Narrative about Ukrainian refugees,5,Humanitarian narratives about Ukraine,Vox
+40,Refugees violate social norms and behave badly,6,Narrative about Ukrainian refugees,5,Humanitarian narratives about Ukraine,Vox
+41,"Refugees who came to Europe were not actually affected by the war",6,Narrative about Ukrainian refugees,5,Humanitarian narratives about Ukraine,Vox
+42,Ukrainian refugees are hostile toward Poles,6,Narrative about Ukrainian refugees,5,Humanitarian narratives about Ukraine,Vox
+43,Ukrainian refugees commit criminal offenses in their host countries,6,Narrative about Ukrainian refugees,5,Humanitarian narratives about Ukraine,Vox
+44,Ukrainian refugees create problems for society,6,Narrative about Ukrainian refugees,5,Humanitarian narratives about Ukraine,Vox
+45,Ukrainian refugees spread corruption,6,Narrative about Ukrainian refugees,5,Humanitarian narratives about Ukraine,Vox
+46,Ukrainian refugees spread diseases in Europe,6,Narrative about Ukrainian refugees,5,Humanitarian narratives about Ukraine,Vox
+47,Ukrainian refugees spread Nazism,6,Narrative about Ukrainian refugees,5,Humanitarian narratives about Ukraine,Vox
+48,Germany deports Ukrainian refugees at the request of the Ukrainian authorities,6,Narrative about Ukrainian refugees,5,Humanitarian narratives about Ukraine,Vox
+49,Ukrainian refugees in Europe are being mobilized,6,Narrative about Ukrainian refugees,5,Humanitarian narratives about Ukraine,Vox
+50,Almost all Kyiv residents will be evacuated because of the humanitarian crisis,7,Humanitarian crisis in Ukraine,5,Humanitarian narratives about Ukraine,Vox
+51,The humanitarian situation in the liberated territories has not improved,7,Humanitarian crisis in Ukraine,5,Humanitarian narratives about Ukraine,Vox
+52,Russian strikes on energy infrastructure will lead to unrest within Ukraine,7,Humanitarian crisis in Ukraine,5,Humanitarian narratives about Ukraine,Vox
+53,The humanitarian situation is catastrophic in most of Ukraine,7,Humanitarian crisis in Ukraine,5,Humanitarian narratives about Ukraine,Vox
+54,The West is responsible for the humanitarian crisis in Ukraine,7,Humanitarian crisis in Ukraine,5,Humanitarian narratives about Ukraine,Vox
+55,Ukrainian grain exports will lead to a food crisis,7,Humanitarian crisis in Ukraine,5,Humanitarian narratives about Ukraine,Vox
+56,Ukrainian provocations will lead to a humanitarian crisis,7,Humanitarian crisis in Ukraine,5,Humanitarian narratives about Ukraine,Vox
+57,Epidemics in Ukraine begin because of the authorities' negligence,7,Humanitarian crisis in Ukraine,5,Humanitarian narratives about Ukraine,Vox
+58,Food imports harm Ukrainian agriculture,8,Narrative about grain and food,5,Humanitarian narratives about Ukraine,Vox
+59,Sanctions against Russia worsen global food shortages,8,Narrative about grain and food,5,Humanitarian narratives about Ukraine,Vox
+60,Ukrainian grain exports benefit only developed countries,8,Narrative about grain and food,5,Humanitarian narratives about Ukraine,Vox
+61,Russia did not block Ukrainian grain exports,8,Narrative about grain and food,5,Humanitarian narratives about Ukraine,Vox
+62,Russia did not strike civilian targets in the port of Odesa,8,Narrative about grain and food,5,Humanitarian narratives about Ukraine,Vox
+63,The global food shortage is a myth,8,Narrative about grain and food,5,Humanitarian narratives about Ukraine,Vox
+64,The global food shortage is caused by the West,8,Narrative about grain and food,5,Humanitarian narratives about Ukraine,Vox
+65,Ukraine created obstacles to grain exports,8,Narrative about grain and food,5,Humanitarian narratives about Ukraine,Vox
+66,Ukraine destroys grain storage facilities and fields ready for harvest,8,Narrative about grain and food,5,Humanitarian narratives about Ukraine,Vox
+67,"Ukraine mined the Black Sea, thereby blocking grain exports",8,Narrative about grain and food,5,Humanitarian narratives about Ukraine,Vox
+68,Ukraine used the maritime humanitarian corridor to attack Russia,8,Narrative about grain and food,5,Humanitarian narratives about Ukraine,Vox
+69,Ukraine uses crop processing and storage facilities for military purposes,8,Narrative about grain and food,5,Humanitarian narratives about Ukraine,Vox
+70,Ukraine uses global hunger as a weapon,8,Narrative about grain and food,5,Humanitarian narratives about Ukraine,Vox
+71,Ukrainian grain exports will lead to domestic food shortages,8,Narrative about grain and food,5,Humanitarian narratives about Ukraine,Vox
+72,Ukrainian grain is contaminated,8,Narrative about grain and food,5,Humanitarian narratives about Ukraine,Vox
+73,Sanctions on Russian agricultural products must be lifted,8,Narrative about grain and food,5,Humanitarian narratives about Ukraine,Vox
+74,Ukraine uses the grain corridor to export illegal drugs and oil,8,Narrative about grain and food,5,Humanitarian narratives about Ukraine,Vox
+75,The 2014 referendum in Crimea was legal,9,Narrative about historical events,6,Narrative about historical events,Vox
+76,Crimea's inclusion in Ukraine was a gift from Khrushchev,9,Narrative about historical events,6,Narrative about historical events,Vox
+77,"During the Cold War, the United States used Ukrainian Nazis against the USSR",9,Narrative about historical events,6,Narrative about historical events,Vox
+78,The struggle between the Ukrainian People's Republic (UPR) and the Ukrainian SSR in 1917–1921 was a civil war,9,Narrative about historical events,6,Narrative about historical events,Vox
+79,The Holodomor was not genocide,9,Narrative about historical events,6,Narrative about historical events,Vox
+80,Russia created Ukraine,9,Narrative about historical events,6,Narrative about historical events,Vox
+81,Stepan Bandera was a mass murderer and a Nazi,9,Narrative about historical events,6,Narrative about historical events,Vox
+82,Bandera's followers practiced cannibalism on their victims,9,Narrative about historical events,6,Narrative about historical events,Vox
+83,The Ukrainian authorities bear primary responsibility for the 1968 invasion of Czechoslovakia,9,Narrative about historical events,6,Narrative about historical events,Vox
+84,"In 2014, residents of the Donetsk and Luhansk regions declared independence and broke away from Kyiv",9,Narrative about historical events,6,Narrative about historical events,Vox
+85,The Revolution of Dignity was a coup d'état,9,Narrative about historical events,6,Narrative about historical events,Vox
+86,A civil war between Ukraine and Donbas has been ongoing since 2014,9,Narrative about historical events,6,Narrative about historical events,Vox
+87,Ukraine developed as an artificial state,9,Narrative about historical events,6,Narrative about historical events,Vox
+88,"Ukraine has long been divided into different groups of people who hate one another",9,Narrative about historical events,6,Narrative about historical events,Vox
+89,Ukrainian nationalism is based exclusively on rejection of other nations,9,Narrative about historical events,6,Narrative about historical events,Vox
+90,Ukrainian nationalists are responsible for the Volhynia tragedy,9,Narrative about historical events,6,Narrative about historical events,Vox
+91,"In 2014, Ukrainian nationalists killed civilians in Odesa",9,Narrative about historical events,6,Narrative about historical events,Vox
+92,Ukrainian nationalists were fascists and Nazi collaborators,9,Narrative about historical events,6,Narrative about historical events,Vox
+93,Ukrainian lands are the historical homeland of Russians,9,Narrative about historical events,6,Narrative about historical events,Vox
+94,"Ukrainian territories belong to other states: Hungary, Poland, Romania, and Russia",9,Narrative about historical events,6,Narrative about historical events,Vox
+95,"Ukrainians and Russians are brotherly peoples, or even one people",9,Narrative about historical events,6,Narrative about historical events,Vox
+96,"Ukrainians failed to build an effective state and therefore became dependent on other countries",9,Narrative about historical events,6,Narrative about historical events,Vox
+97,Ukrainians faced no restrictions on their political rights in the USSR,9,Narrative about historical events,6,Narrative about historical events,Vox
+98,The 2004 Orange Revolution strengthened Western control over Ukraine and divided society,9,Narrative about historical events,6,Narrative about historical events,Vox
+99,The Ukrainian language did not exist a hundred years ago,9,Narrative about historical events,6,Narrative about historical events,Vox
+100,Ukraine is rewriting history,9,Narrative about historical events,6,Narrative about historical events,Vox
+101,Ukrainian nationalists killed civilians in Odesa in 2014,9,Narrative about historical events,6,Narrative about historical events,Vox
+102,The 14th Waffen-SS Grenadier Division was involved in war crimes,9,Narrative about historical events,6,Narrative about historical events,Vox
+103,There is evidence of a leak from American laboratories in Ukraine,10,Military biological laboratories and drug laboratories in Ukraine,3,Discrediting Ukraine through conspiracy theories,Vox
+104,$88 billion has been allocated for research in US biological laboratories in Ukraine,10,Military biological laboratories and drug laboratories in Ukraine,3,Discrediting Ukraine through conspiracy theories,Vox
+105,Unusual diseases among Ukrainians are caused by the activities of US biological laboratories,10,Military biological laboratories and drug laboratories in Ukraine,3,Discrediting Ukraine through conspiracy theories,Vox
+106,"Biological weapons created in US laboratories in Ukraine target specific ethnic groups",10,Military biological laboratories and drug laboratories in Ukraine,3,Discrediting Ukraine through conspiracy theories,Vox
+107,"Biological weapons transmitted by insects and bats were developed in US biological laboratories",10,Military biological laboratories and drug laboratories in Ukraine,3,Discrediting Ukraine through conspiracy theories,Vox
+108,Germany conducted military biological activities in Ukraine,10,Military biological laboratories and drug laboratories in Ukraine,3,Discrediting Ukraine through conspiracy theories,Vox
+109,Kyiv intends to equip unmanned aerial vehicles with biological weapons,10,Military biological laboratories and drug laboratories in Ukraine,3,Discrediting Ukraine through conspiracy theories,Vox
+110,The Biden family was involved in military biological research in Ukraine,10,Military biological laboratories and drug laboratories in Ukraine,3,Discrediting Ukraine through conspiracy theories,Vox
+111,The Democratic Party was involved in military biological research in Ukraine,10,Military biological laboratories and drug laboratories in Ukraine,3,Discrediting Ukraine through conspiracy theories,Vox
+112,The Security Service of Ukraine (SBU) ran drug laboratories in Russia,10,Military biological laboratories and drug laboratories in Ukraine,3,Discrediting Ukraine through conspiracy theories,Vox
+113,American biological laboratories conducted experiments on Ukrainian agricultural products,10,Military biological laboratories and drug laboratories in Ukraine,3,Discrediting Ukraine through conspiracy theories,Vox
+114,The United States conducted experiments on Ukrainians,10,Military biological laboratories and drug laboratories in Ukraine,3,Discrediting Ukraine through conspiracy theories,Vox
+115,The United States conducted experiments on vulnerable groups in Ukraine,10,Military biological laboratories and drug laboratories in Ukraine,3,Discrediting Ukraine through conspiracy theories,Vox
+116,The United States built or funded 46 biological laboratories in Ukraine,10,Military biological laboratories and drug laboratories in Ukraine,3,Discrediting Ukraine through conspiracy theories,Vox
+117,"Following their exposure, the United States is relocating biological weapons production facilities from Ukraine",10,Military biological laboratories and drug laboratories in Ukraine,3,Discrediting Ukraine through conspiracy theories,Vox
+118,US laboratories in Ukraine developed biological weapons,10,Military biological laboratories and drug laboratories in Ukraine,3,Discrediting Ukraine through conspiracy theories,Vox
+119,US laboratories in Ukraine worked on the controlled spread of infectious diseases,10,Military biological laboratories and drug laboratories in Ukraine,3,Discrediting Ukraine through conspiracy theories,Vox
+120,The United States spent $32 million on military biological research in Ukraine,10,Military biological laboratories and drug laboratories in Ukraine,3,Discrediting Ukraine through conspiracy theories,Vox
+121,The United States used the Ukrainian population as guinea pigs in its experiments,10,Military biological laboratories and drug laboratories in Ukraine,3,Discrediting Ukraine through conspiracy theories,Vox
+122,Ukraine deliberately infected the population of Donbas,10,Military biological laboratories and drug laboratories in Ukraine,3,Discrediting Ukraine through conspiracy theories,Vox
+123,Ukraine rushed to destroy dangerous pathogens after the Russian invasion began,10,Military biological laboratories and drug laboratories in Ukraine,3,Discrediting Ukraine through conspiracy theories,Vox
+124,Ukrainian military personnel take special military drugs,10,Military biological laboratories and drug laboratories in Ukraine,3,Discrediting Ukraine through conspiracy theories,Vox
+125,Unauthorized drugs were tested on Ukrainian military personnel,10,Military biological laboratories and drug laboratories in Ukraine,3,Discrediting Ukraine through conspiracy theories,Vox
+126,"Victoria Nuland acknowledged that there are US biological laboratories in Ukraine",10,Military biological laboratories and drug laboratories in Ukraine,3,Discrediting Ukraine through conspiracy theories,Vox
+127,"If Russia had not started the war, it would have been attacked on its own territory",11,The actions of Ukraine and the West forced Russia to start the war,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+128,Moscow's plans do not include occupying Ukrainian territories,11,The actions of Ukraine and the West forced Russia to start the war,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+129,"Russia is forced to occupy all of southern Ukraine to protect Transnistria",11,The actions of Ukraine and the West forced Russia to start the war,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+130,Russia carried out the invasion in full accordance with international law,11,The actions of Ukraine and the West forced Russia to start the war,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+131,Russia must put an end to the unipolar world order,11,The actions of Ukraine and the West forced Russia to start the war,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+132,"Russia restored historical justice by occupying Ukrainian territories",11,The actions of Ukraine and the West forced Russia to start the war,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+133,"Russia was forced to enter the war to ensure its survival",11,The actions of Ukraine and the West forced Russia to start the war,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+134,The alliance between Belarus and Russia arose because of provocations by Ukraine and the West,11,The actions of Ukraine and the West forced Russia to start the war,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+135,The goals of the invasion are the denazification and demilitarization of Ukraine,11,The actions of Ukraine and the West forced Russia to start the war,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+136,NATO countries were increasing their military presence in Ukraine,11,The actions of Ukraine and the West forced Russia to start the war,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+137,NATO expansion is an existential threat to Russia,11,The actions of Ukraine and the West forced Russia to start the war,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+138,The OSCE failed to mediate the conflict and sided with Ukraine,11,The actions of Ukraine and the West forced Russia to start the war,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+139,"Russia's goal is not to occupy Ukraine, but only to hold its government accountable for war crimes",11,The actions of Ukraine and the West forced Russia to start the war,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+140,The Revolution of Dignity was an anti-Russian coup d'état,11,The actions of Ukraine and the West forced Russia to start the war,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+141,The Russian invasion is a humanitarian intervention,11,The actions of Ukraine and the West forced Russia to start the war,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+142,The Russian invasion is a preventive war,11,The actions of Ukraine and the West forced Russia to start the war,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+143,The United States deliberately fueled the armed conflict,11,The actions of Ukraine and the West forced Russia to start the war,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+144,The war began because of the West's ignorance,11,The actions of Ukraine and the West forced Russia to start the war,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+145,The West shaped Ukraine into an anti-Russia,11,The actions of Ukraine and the West forced Russia to start the war,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+146,The West deceived Russia with the Minsk agreements,11,The actions of Ukraine and the West forced Russia to start the war,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+147,The West has been provoking this war for years,11,The actions of Ukraine and the West forced Russia to start the war,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+148,The West prevented Ukraine from signing a peace agreement with Russia,11,The actions of Ukraine and the West forced Russia to start the war,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+149,The West rejected Russia's peace agreement,11,The actions of Ukraine and the West forced Russia to start the war,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+150,The West has disregarded Russian interests since 1991,11,The actions of Ukraine and the West forced Russia to start the war,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+151,Ukraine and Russia bear equal responsibility for starting the war,11,The actions of Ukraine and the West forced Russia to start the war,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+152,Ukraine is demanding a NATO nuclear strike on Russia,11,The actions of Ukraine and the West forced Russia to start the war,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+153,Ukraine did not implement the Minsk agreements,11,The actions of Ukraine and the West forced Russia to start the war,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+154,Ukraine has been abandoning and destroying Donbas for eight years,11,The actions of Ukraine and the West forced Russia to start the war,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+155,Ukraine killed civilians in Odesa and Donbas,11,The actions of Ukraine and the West forced Russia to start the war,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+156,Ukraine must become a friendly neighbor to Russia,11,The actions of Ukraine and the West forced Russia to start the war,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+157,Ukraine refused to accept neutral and non-aligned status,11,The actions of Ukraine and the West forced Russia to start the war,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+158,Ukraine refuses to negotiate with Russia,11,The actions of Ukraine and the West forced Russia to start the war,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+159,"Ukraine started the conflict before February 24, 2022, and intended to retake the occupied territories by force",11,The actions of Ukraine and the West forced Russia to start the war,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+160,Ukraine intended to create or use weapons of mass destruction,11,The actions of Ukraine and the West forced Russia to start the war,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+161,Ukraine's accession to NATO will lead to a world war,11,The actions of Ukraine and the West forced Russia to start the war,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+162,Ukraine's energy infrastructure facilities are legitimate military targets,11,The actions of Ukraine and the West forced Russia to start the war,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+163,Ukrainian nationalism led to the Russian invasion,11,The actions of Ukraine and the West forced Russia to start the war,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+164,"Russia had to launch a military operation to ensure Crimea's water supply",11,The actions of Ukraine and the West forced Russia to start the war,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+165,The alliance between China and Russia was caused by Western provocations,11,The actions of Ukraine and the West forced Russia to start the war,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+166,Sanctions against Russia could lead to famine in Europe,12,"Supporting Ukraine harms the West more than Russia",1,Discrediting the EU and the West,Vox
+167,Sanctions against Russia have created a risk of famine in vulnerable countries,12,"Supporting Ukraine harms the West more than Russia",1,Discrediting the EU and the West,Vox
+168,Sanctions against Russia and the escalation of the war could lead to civil wars in Europe,12,"Supporting Ukraine harms the West more than Russia",1,Discrediting the EU and the West,Vox
+169,Sanctions against Russia are pointless and must be lifted,12,"Supporting Ukraine harms the West more than Russia",1,Discrediting the EU and the West,Vox
+170,Sanctions against Russia benefit only the United States,12,"Supporting Ukraine harms the West more than Russia",1,Discrediting the EU and the West,Vox
+171,Sanctions against Russia will lead to a global crisis,12,"Supporting Ukraine harms the West more than Russia",1,Discrediting the EU and the West,Vox
+172,The economic crisis in Moldova is a side effect of sanctions against Russia,12,"Supporting Ukraine harms the West more than Russia",1,Discrediting the EU and the West,Vox
+173,Europe is struggling with an economic crisis because of sanctions against Russia,12,"Supporting Ukraine harms the West more than Russia",1,Discrediting the EU and the West,Vox
+174,Financial support for Ukraine has hurt Western economies,12,"Supporting Ukraine harms the West more than Russia",1,Discrediting the EU and the West,Vox
+175,Continued support for Ukraine will prolong the conflict and the crisis,12,"Supporting Ukraine harms the West more than Russia",1,Discrediting the EU and the West,Vox
+176,"Global problems are created by globalists, not Russia",12,"Supporting Ukraine harms the West more than Russia",1,Discrediting the EU and the West,Vox
+177,New sanctions against Russia will lead to the collapse of the EU,12,"Supporting Ukraine harms the West more than Russia",1,Discrediting the EU and the West,Vox
+178,Rising prices in the United States are a consequence of sanctions against Russia,12,"Supporting Ukraine harms the West more than Russia",1,Discrediting the EU and the West,Vox
+179,Russia is not responsible for the economic crisis,12,"Supporting Ukraine harms the West more than Russia",1,Discrediting the EU and the West,Vox
+180,Supporting Ukraine in the war is worse for European economies than the pandemic,12,"Supporting Ukraine harms the West more than Russia",1,Discrediting the EU and the West,Vox
+181,The economic crisis is forcing the West to seek a compromise with Russia,12,"Supporting Ukraine harms the West more than Russia",1,Discrediting the EU and the West,Vox
+182,"Peace negotiations must begin immediately to ease the global crisis",12,"Supporting Ukraine harms the West more than Russia",1,Discrediting the EU and the West,Vox
+183,Russian aggression is not grounds for imposing sanctions on Russia,12,"Supporting Ukraine harms the West more than Russia",1,Discrediting the EU and the West,Vox
+184,"The United States prioritizes the war in Ukraine over saving American lives",12,"Supporting Ukraine harms the West more than Russia",1,Discrediting the EU and the West,Vox
+185,"The West has exhausted its resources by arming Ukraine",12,"Supporting Ukraine harms the West more than Russia",1,Discrediting the EU and the West,Vox
+186,Ukraine obstructed supplies through Russian pipelines and caused an energy crisis in Europe,12,"Supporting Ukraine harms the West more than Russia",1,Discrediting the EU and the West,Vox
+187,"Western sanctions failed to destabilize Russia but caused enormous harm to the West",12,"Supporting Ukraine harms the West more than Russia",1,Discrediting the EU and the West,Vox
+188,Europe has lost its cultural vitality because of its support for Ukraine,12,"Supporting Ukraine harms the West more than Russia",1,Discrediting the EU and the West,Vox
+189,Europe has lost its sovereignty during this war,12,"Supporting Ukraine harms the West more than Russia",1,Discrediting the EU and the West,Vox
+190,Ukrainian military personnel complain about supply shortages,13,Discrediting the Ukrainian army,8,Discrediting Ukraine and its institutions,Vox
+191,The Ukrainian army destroys civilian infrastructure,13,Discrediting the Ukrainian army,8,Discrediting Ukraine and its institutions,Vox
+192,The Ukrainian military command mistreats soldiers,13,Discrediting the Ukrainian army,8,Discrediting Ukraine and its institutions,Vox
+193,The Ukrainian army is unprofessional,13,Discrediting the Ukrainian army,8,Discrediting Ukraine and its institutions,Vox
+194,Many Ukrainian military personnel surrender,13,Discrediting the Ukrainian army,8,Discrediting Ukraine and its institutions,Vox
+195,Mobilization in Ukraine violates all standards,13,Discrediting the Ukrainian army,8,Discrediting Ukraine and its institutions,Vox
+196,There is no respect for fallen soldiers in Ukraine,13,Discrediting the Ukrainian army,8,Discrediting Ukraine and its institutions,Vox
+197,Ukraine mobilizes minors,13,Discrediting the Ukrainian army,8,Discrediting Ukraine and its institutions,Vox
+198,Ukrainian military personnel disrespect the Quran,13,Discrediting the Ukrainian army,8,Discrediting Ukraine and its institutions,Vox
+199,Corruption in Ukraine's political and military leadership,14,Discrediting or ridiculing representatives of the Ukrainian authorities,8,Discrediting Ukraine and its institutions,Vox
+200,Ridiculing representatives of the Ukrainian authorities,14,Discrediting or ridiculing representatives of the Ukrainian authorities,8,Discrediting Ukraine and its institutions,Vox
+201,Volodymyr Zelenskyy fled Kyiv,14,Discrediting or ridiculing representatives of the Ukrainian authorities,8,Discrediting Ukraine and its institutions,Vox
+202,Volodymyr Zelenskyy is a drug addict,14,Discrediting or ridiculing representatives of the Ukrainian authorities,8,Discrediting Ukraine and its institutions,Vox
+203,The Ukrainian authorities are prolonging the war,14,Discrediting or ridiculing representatives of the Ukrainian authorities,8,Discrediting Ukraine and its institutions,Vox
+204,Ukraine pursues an aggressive policy and threatens neighboring countries,14,Discrediting or ridiculing representatives of the Ukrainian authorities,8,Discrediting Ukraine and its institutions,Vox
+205,The Ukrainian authorities are hiding the truth,14,Discrediting or ridiculing representatives of the Ukrainian authorities,8,Discrediting Ukraine and its institutions,Vox
+206,Conflict between Ukraine's military and political elites,14,Discrediting or ridiculing representatives of the Ukrainian authorities,8,Discrediting Ukraine and its institutions,Vox
+207,Ukrainians oppose Zelenskyy,14,Discrediting or ridiculing representatives of the Ukrainian authorities,8,Discrediting Ukraine and its institutions,Vox
+208,The West can remove Zelenskyy at any moment,14,Discrediting or ridiculing representatives of the Ukrainian authorities,8,Discrediting Ukraine and its institutions,Vox
+209,Ukrainian military personnel planned to kill Zelenskyy,14,Discrediting or ridiculing representatives of the Ukrainian authorities,8,Discrediting Ukraine and its institutions,Vox
+210,Zelenskyy wants to sacrifice Ukrainians for his own interests,14,Discrediting or ridiculing representatives of the Ukrainian authorities,8,Discrediting Ukraine and its institutions,Vox
+211,Russia rebuilt occupied Crimea,15,Russia helps Ukraine,9,"Narratives about prosperity and Russia's ""liberating"" role",Vox
+212,Russia brought peace to the occupied territories,15,Russia helps Ukraine,9,"Narratives about prosperity and Russia's ""liberating"" role",Vox
+213,Russia is rebuilding the devastated city of Mariupol,15,Russia helps Ukraine,9,"Narratives about prosperity and Russia's ""liberating"" role",Vox
+214,Russia helps residents of the occupied territories,16,Ukrainians want to join Russia,9,"Narratives about prosperity and Russia's ""liberating"" role",Vox
+215,Russia helps farmers in the occupied territories,16,Ukrainians want to join Russia,9,"Narratives about prosperity and Russia's ""liberating"" role",Vox
+216,Russia evacuates civilians from the occupied territories,16,Ukrainians want to join Russia,9,"Narratives about prosperity and Russia's ""liberating"" role",Vox
+217,Ukrainians were waiting for the Russian army,16,Ukrainians want to join Russia,9,"Narratives about prosperity and Russia's ""liberating"" role",Vox
+218,Ukrainian regions sought to join Russia,16,Ukrainians want to join Russia,9,"Narratives about prosperity and Russia's ""liberating"" role",Vox
+219,Ukrainians in the occupied territories oppose the return of the Ukrainian army,16,Ukrainians want to join Russia,9,"Narratives about prosperity and Russia's ""liberating"" role",Vox
+220,"Donbas and Crimea voluntarily seceded from Ukraine because they did not accept the new authorities in 2014",16,Ukrainians want to join Russia,9,"Narratives about prosperity and Russia's ""liberating"" role",Vox
+221,Sham referendums in the occupied territories,16,Ukrainians want to join Russia,9,"Narratives about prosperity and Russia's ""liberating"" role",Vox
+222,Ukrainians voluntarily obtain Russian passports,16,Ukrainians want to join Russia,9,"Narratives about prosperity and Russia's ""liberating"" role",Vox
+223,"Ukrainians believe that the Russian army protects them",16,Ukrainians want to join Russia,9,"Narratives about prosperity and Russia's ""liberating"" role",Vox
+224,Azov and other battalions are Nazis,17,Nazism in Ukraine,8,Discrediting Ukraine and its institutions,Vox
+225,The Ukrainian authorities are Nazis,17,Nazism in Ukraine,8,Discrediting Ukraine and its institutions,Vox
+226,The West ignores/supports Nazism in Ukraine,17,Nazism in Ukraine,8,Discrediting Ukraine and its institutions,Vox
+227,Nazi ideology is widespread in Ukraine,18,Ukraine threatens a nuclear catastrophe,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+228,Comparing Ukraine to Hitler's Germany,18,Ukraine threatens a nuclear catastrophe,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+229,Fascism is spreading in Ukraine,18,Ukraine threatens a nuclear catastrophe,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+230,Kyiv obstructs the work of the IAEA delegation at the Zaporizhzhia Nuclear Power Plant,18,Ukraine threatens a nuclear catastrophe,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+231,Kyiv stores heavy Western weapons at nuclear power plants,18,Ukraine threatens a nuclear catastrophe,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+232,Russia protects the Zaporizhzhia Nuclear Power Plant,18,Ukraine threatens a nuclear catastrophe,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+233,Ukraine stages provocations around the Zaporizhzhia Nuclear Power Plant,18,Ukraine threatens a nuclear catastrophe,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+234,Ukraine is preparing a dirty nuclear bomb,18,Ukraine threatens a nuclear catastrophe,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+235,Ukraine secretly stores nuclear weapons,18,Ukraine threatens a nuclear catastrophe,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+236,Ukraine shells the Zaporizhzhia Nuclear Power Plant,18,Ukraine threatens a nuclear catastrophe,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+237,Ukraine wants to create nuclear weapons,18,Ukraine threatens a nuclear catastrophe,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+238,Ukraine is preparing nuclear provocations,18,Ukraine threatens a nuclear catastrophe,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+239,Germany is at war with Russia,19,Russia is fighting the West in Ukraine,1,Discrediting the EU and the West,Vox
+240,NATO is directly involved in the war in Ukraine,19,Russia is fighting the West in Ukraine,1,Discrediting the EU and the West,Vox
+241,NATO is waging a proxy war against Russia in Ukraine,19,Russia is fighting the West in Ukraine,1,Discrediting the EU and the West,Vox
+242,Poland is a participant in the war in Ukraine,19,Russia is fighting the West in Ukraine,1,Discrediting the EU and the West,Vox
+243,"Russia is fighting NATO, not Ukraine",19,Russia is fighting the West in Ukraine,1,Discrediting the EU and the West,Vox
+244,Russia is fighting the collective West,19,Russia is fighting the West in Ukraine,1,Discrediting the EU and the West,Vox
+245,The United States is involved in the war in Ukraine,19,Russia is fighting the West in Ukraine,1,Discrediting the EU and the West,Vox
+246,Western countries are parties to the war because they supply weapons,19,Russia is fighting the West in Ukraine,1,Discrediting the EU and the West,Vox
+247,All problems on the European continent are caused by the Anglo-Saxons,20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+248,Western foreigners have taken over all structures of power in Ukraine,20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+249,George Soros is responsible for the war in Ukraine,20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+250,Most Ukrainian arable land is being sold to Western companies,20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+251,The United States began dividing Ukraine in 2014,20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+252,The United States is the sole beneficiary of the Russian-Ukrainian war,20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+253,"The United States uses Ukraine to weaken Europe",20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+254,"The United States supports Ukraine only because American corporations have bought up millions of hectares of land in Ukraine",20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+255,"The West decides when to end the war between Ukraine and Russia",20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+256,The West does not care about Ukrainians' lives,20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+257,The West forces Ukraine to use weapons of mass destruction,20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+258,The West fuels Ukrainian propaganda,20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+259,The West deliberately prolongs the war for economic gain,20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+260,The West forces Ukraine to abandon peace negotiations and fight to the last Ukrainian,20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+261,The West is complicit in Ukraine's war crimes,20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+262,The West is not interested in a strong and independent Ukraine,20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+263,The West uses Ukraine for a proxy conflict with Russia,20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+264,The West organized a coup d'état in Ukraine in 2014,20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+265,"The West would sooner abandon Ukraine than enter a global war with Russia",20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+266,The West views Ukraine as a testing ground,20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+267,The West supports Nazism in Ukraine,20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+268,The West turned Ukraine into an anti-Russia,20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+269,The West will turn Ukraine into another Afghanistan,20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+270,Western elites are the main beneficiaries of the war,20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+271,Western support has led to the weakening or destruction of Ukraine,20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+272,Ukraine is a testing ground for an experiment by Western corporations,20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+273,"For the West, Ukraine is a tool for building a new world order",20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+274,Ukraine is a tool of the United States,20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+275,Ukraine is occupied by NATO,20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+276,Ukraine is ready to sacrifice Ukrainians for Western goals,20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+277,Ukraine sold its independence to globalists,20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+278,Ukraine is surrendering its sovereignty to the West,20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+279,Ukraine was sold in exchange for promises of EU and NATO membership,20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+280,Ukraine will become an American colony after the war,20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+281,"Without US assistance, Ukraine will fall immediately",20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+282,Ukraine will sell its territories to Western countries,20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+283,Ukrainian leaders are pawns in the hands of the West,20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+284,Ukrainian military operations are planned and supported in Western countries,20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+285,Ukrainians are victims of Western policy,20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+286,Ukraine's European integration is colonization,20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+287,The West is escalating the war in Ukraine,20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+288,The West would sooner abandon Ukraine,20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+289,The West uses Ukraine to privatize its property,20,The West controls Ukraine and uses it for its own purposes,4,The West uses Ukraine for its own purposes,Vox
+290,Recovering all occupied territories is an unrealistic goal,21,Ukraine's victory is impossible,2,Undermining faith in Ukraine's victory,Vox
+291,Russia's victory is inevitable,21,Ukraine's victory is impossible,2,Undermining faith in Ukraine's victory,Vox
+292,"The United States acknowledges that Ukraine has no chance of victory",21,Ukraine's victory is impossible,2,Undermining faith in Ukraine's victory,Vox
+293,US support for Ukraine will increase Russia's power,21,Ukraine's victory is impossible,2,Undermining faith in Ukraine's victory,Vox
+294,Western support merely delays Ukraine's defeat,21,Ukraine's victory is impossible,2,Undermining faith in Ukraine's victory,Vox
+295,Ukraine has completely depleted its arsenals,21,Ukraine's victory is impossible,2,Undermining faith in Ukraine's victory,Vox
+296,"Ukraine is losing far more military personnel than Russia",21,Ukraine's victory is impossible,2,Undermining faith in Ukraine's victory,Vox
+297,Ukraine is on the verge of total collapse,21,Ukraine's victory is impossible,2,Undermining faith in Ukraine's victory,Vox
+298,Ukraine will not survive the winter,21,Ukraine's victory is impossible,2,Undermining faith in Ukraine's victory,Vox
+299,Ukrainians' morale is declining,21,Ukraine's victory is impossible,2,Undermining faith in Ukraine's victory,Vox
+300,The Ukrainian offensive has failed,21,Ukraine's victory is impossible,2,Undermining faith in Ukraine's victory,Vox
+301,The West is preparing for Ukraine's defeat,21,Ukraine's victory is impossible,2,Undermining faith in Ukraine's victory,Vox
+302,"Ukraine cannot win, because Russia would use nuclear weapons",21,Ukraine's victory is impossible,2,Undermining faith in Ukraine's victory,Vox
+303,Ukraine carries out terrorist attacks on its own territory and in Russia,22,Ukraine is a terrorist state,8,Discrediting Ukraine and its institutions,Vox
+304,"Ukraine used the ""grain corridor"" for a terrorist attack on the Black Sea Fleet",22,Ukraine is a terrorist state,8,Discrediting Ukraine and its institutions,Vox
+305,Ukraine's attack on the Crimean Bridge was a terrorist act,22,Ukraine is a terrorist state,8,Discrediting Ukraine and its institutions,Vox
+306,The West supports Ukraine's terrorist methods,22,Ukraine is a terrorist state,8,Discrediting Ukraine and its institutions,Vox
+307,"Since Ukraine is a terrorist state, it is impossible to negotiate with it",22,Ukraine is a terrorist state,8,Discrediting Ukraine and its institutions,Vox
+308,Ukraine has used terrorist methods since 2014,22,Ukraine is a terrorist state,8,Discrediting Ukraine and its institutions,Vox
+309,Ukraine holds the civilian population hostage,22,Ukraine is a terrorist state,8,Discrediting Ukraine and its institutions,Vox
+310,Ukraine is a state sponsor of terrorism,22,Ukraine is a terrorist state,8,Discrediting Ukraine and its institutions,Vox
+311,Azov is a terrorist organization,22,Ukraine is a terrorist state,8,Discrediting Ukraine and its institutions,Vox
+312,Russia has the right to take revenge on Ukraine for terrorist attacks,22,Ukraine is a terrorist state,8,Discrediting Ukraine and its institutions,Vox
+313,Ukraine carries out terrorist attacks in Europe,22,Ukraine is a terrorist state,8,Discrediting Ukraine and its institutions,Vox
+314,The destruction of the Kakhovka Hydroelectric Power Plant was a Ukrainian terrorist attack,22,Ukraine is a terrorist state,8,Discrediting Ukraine and its institutions,Vox
+315,Russia did not kill civilians at the shopping center in Kremenchuk,23,Russia does not commit war crimes in Ukraine,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+316,Ukraine stages Russian war crimes in Ukraine,23,Russia does not commit war crimes in Ukraine,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+317,Russian atrocities in Bucha were staged by the Ukrainian authorities,23,Russia does not commit war crimes in Ukraine,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+318,"Russia strikes military targets rather than civilian ones",23,Russia does not commit war crimes in Ukraine,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+319,"Ukraine, not Russia, destroyed Mariupol",23,Russia does not commit war crimes in Ukraine,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+320,Ukraine destroyed the prison holding prisoners of war in Olenivka,23,Russia does not commit war crimes in Ukraine,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+321,"Russia did not strike the railway station in Kramatorsk with a Tochka-U missile",23,Russia does not commit war crimes in Ukraine,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+322,The Russian army does not commit crimes of sexual violence,23,Russia does not commit war crimes in Ukraine,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+323,Ukraine is destroying cities in the Donetsk and Luhansk regions,23,Russia does not commit war crimes in Ukraine,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+324,"Ukrainian air defense missiles, not Russian strikes, destroy civilian infrastructure in Ukraine",23,Russia does not commit war crimes in Ukraine,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+325,"Ukraine, not Russia, shot down MH17",23,Russia does not commit war crimes in Ukraine,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+326,Russia did not destroy the Kakhovka Hydroelectric Power Plant,23,Russia does not commit war crimes in Ukraine,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+327,The deportation of Ukrainian children to Russia is not a war crime,23,Russia does not commit war crimes in Ukraine,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+328,The deportation of Ukrainian children to Russia is not a war crime,23,Russia does not commit war crimes in Ukraine,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+329,The United States persuaded Ukrainian leaders to abandon a compromise with Russia,24,Ukraine and the West refuse to begin peace negotiations,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+330,The West must persuade Ukraine to agree to negotiations,24,Ukraine and the West refuse to begin peace negotiations,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+331,The West refuses peace negotiations,24,Ukraine and the West refuse to begin peace negotiations,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+332,"Ukraine does not deserve support because it refused negotiations",24,Ukraine and the West refuse to begin peace negotiations,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+333,"Ukraine is moving toward escalation rather than resolution of the conflict",24,Ukraine and the West refuse to begin peace negotiations,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+334,Ukraine must accept neutral and demilitarized status,24,Ukraine and the West refuse to begin peace negotiations,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+335,Ukraine must immediately begin peace negotiations and compromise with Russia,24,Ukraine and the West refuse to begin peace negotiations,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+336,"Unlike Ukraine, Russia demonstrates a willingness to negotiate",24,Ukraine and the West refuse to begin peace negotiations,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+337,"The West pressured Ukraine to abandon peace negotiations",24,Ukraine and the West refuse to begin peace negotiations,7,Ukraine/the West are to blame — Russia is defending itself,Vox
+338,The Ukrainian army deliberately shells civilians,25,The Ukrainian army commits war crimes,8,Discrediting Ukraine and its institutions,Vox
+339,Ukraine shells civilian infrastructure,25,The Ukrainian army commits war crimes,8,Discrediting Ukraine and its institutions,Vox
+340,Ukraine mistreats prisoners of war,25,The Ukrainian army commits war crimes,8,Discrediting Ukraine and its institutions,Vox
+341,The Ukrainian army uses prohibited munitions,25,The Ukrainian army commits war crimes,8,Discrediting Ukraine and its institutions,Vox
+342,Ukrainian military personnel torture or execute civilians,25,The Ukrainian army commits war crimes,8,Discrediting Ukraine and its institutions,Vox
+343,The Ukrainian army takes civilians hostage,25,The Ukrainian army commits war crimes,8,Discrediting Ukraine and its institutions,Vox
+344,"Ukrainian troops establish positions in residential neighborhoods or otherwise use civilians as ""human shields""",25,The Ukrainian army commits war crimes,8,Discrediting Ukraine and its institutions,Vox
+345,The Ukrainian army obstructs the evacuation of civilians,25,The Ukrainian army commits war crimes,8,Discrediting Ukraine and its institutions,Vox
+346,Ukraine stages provocations involving chemical substances,25,The Ukrainian army commits war crimes,8,Discrediting Ukraine and its institutions,Vox
+347,Ukraine kills civilians with air defense missiles,25,The Ukrainian army commits war crimes,8,Discrediting Ukraine and its institutions,Vox
+348,Ukraine kills its own soldiers,25,The Ukrainian army commits war crimes,8,Discrediting Ukraine and its institutions,Vox
+349,"Ukraine is ruled by a dictatorship, and all opposition parties and media outlets are banned",26,Ukraine is not a democracy,8,Discrediting Ukraine and its institutions,Vox
+350,Freedom of the press is suppressed in Ukraine,26,Ukraine is not a democracy,8,Discrediting Ukraine and its institutions,Vox
+351,People are imprisoned in Ukraine for Russian music,26,Ukraine is not a democracy,8,Discrediting Ukraine and its institutions,Vox
+352,The Russian language is suppressed in Ukraine,26,Ukraine is not a democracy,8,Discrediting Ukraine and its institutions,Vox
+353,Ukraine has not been democratic since 2014,26,Ukraine is not a democracy,8,Discrediting Ukraine and its institutions,Vox
+354,Ukraine unlawfully persecutes the Orthodox Church,26,Ukraine is not a democracy,8,Discrediting Ukraine and its institutions,Vox
+355,Ukraine violates the rights of national minorities,26,Ukraine is not a democracy,8,Discrediting Ukraine and its institutions,Vox
+356,Ukraine is an undemocratic country,26,Ukraine is not a democracy,8,Discrediting Ukraine and its institutions,Vox
+357,Ukraine is sliding into a Nazi dictatorship,26,Ukraine is not a democracy,8,Discrediting Ukraine and its institutions,Vox
+358,Ukraine represses its own citizens under the pretext of fighting collaborators,26,Ukraine is not a democracy,8,Discrediting Ukraine and its institutions,Vox
+359,Western democracy was introduced in Ukraine through undemocratic methods,26,Ukraine is not a democracy,8,Discrediting Ukraine and its institutions,Vox
+360,Zelenskyy established an authoritarian regime,26,Ukraine is not a democracy,8,Discrediting Ukraine and its institutions,Vox
+361,Russian culture is superior to Western culture,27,Discrediting the EU and the West,1,Discrediting the EU and the West,Annotators
+362,The aggressive West,27,Discrediting the EU and the West,1,Discrediting the EU and the West,Annotators
+363,The decaying West,27,Discrediting the EU and the West,1,Discrediting the EU and the West,Annotators
+364,The Global South does not submit to America's imperialist ambitions,27,Discrediting the EU and the West,1,Discrediting the EU and the West,Annotators
+365,Western hypocrisy,27,Discrediting the EU and the West,1,Discrediting the EU and the West,Annotators
+366,Discrediting the EU and the West,27,Discrediting the EU and the West,1,Discrediting the EU and the West,Annotators
+367,Happy people in the occupied territories,28,Russia improves life in the occupied territories,9,"Narratives about prosperity and Russia's ""liberating"" role",Annotators
+368,Russia takes care of the occupied territories,28,Russia improves life in the occupied territories,9,"Narratives about prosperity and Russia's ""liberating"" role",Annotators
+369,The integration of Ukrainian lands is successful,28,Russia improves life in the occupied territories,9,"Narratives about prosperity and Russia's ""liberating"" role",Annotators
+370,Nobody needs Ukraine,29,Ukraine has been left alone and is losing,2,Undermining faith in Ukraine's victory,Annotators
+371,Russia must dominate others,29,Ukraine has been left alone and is losing,2,Undermining faith in Ukraine's victory,Annotators
+372,Ukraine's partners have abandoned it,29,Ukraine has been left alone and is losing,2,Undermining faith in Ukraine's victory,Annotators
+373,Post-Soviet countries are corrupt,30,Post-Soviet countries are corrupt,6,Narrative about historical events,Annotators
+374,Intimidating the population of the occupied territories,31,Intimidating the population of the occupied territories,2,Undermining faith in Ukraine's victory,Annotators
+375,Russia is winning,32,Everything is going well in Russia ,9,"Narratives about prosperity and Russia's ""liberating"" role",Annotators
+376,Russians benefit from participating in the war,32,Everything is going well in Russia ,9,"Narratives about prosperity and Russia's ""liberating"" role",Annotators
+377,Everything is under control in Russia,32,Everything is going well in Russia ,9,"Narratives about prosperity and Russia's ""liberating"" role",Annotators
+378,Russia is a high-tech state,32,Everything is going well in Russia ,9,"Narratives about prosperity and Russia's ""liberating"" role",Annotators
+379,Russia's youth are healthy and athletic,32,Everything is going well in Russia ,9,"Narratives about prosperity and Russia's ""liberating"" role",Annotators
+380,"Russians are brave and fearless",32,Everything is going well in Russia ,9,"Narratives about prosperity and Russia's ""liberating"" role",Annotators
