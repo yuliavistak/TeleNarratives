@@ -4,6 +4,8 @@
 
 The project spans the full data lifecycle — from raw Telegram message collection through narrative labelling, channel-forwarding graph construction, and supervised GNN classification.
 
+**English narrative taxonomy:** [narratives_english.csv](narratives_english.csv)
+
 ---
 
 ## Table of Contents
